@@ -1,4 +1,4 @@
-from systeme.FondMarin import begin_drawing, end_drawing, clear_background, WHITE, config_sys
+from systeme.FondMarin import begin_drawing, end_drawing, clear_background, config_sys
 from systeme.fenetre import Fenetre
 from editeur.editeur import Editeur
 
@@ -15,7 +15,7 @@ else:
 
 while not fen.jeuDoitFermer():
     begin_drawing()
-    clear_background(WHITE)
+    clear_background([235, 235, 235, 255])
     actif.dessine()
     if not actif.lu:
         actif.lu = True

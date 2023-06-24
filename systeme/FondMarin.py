@@ -11,8 +11,6 @@ version = "0.1"
 
 init_window(1100, 750, TITRE_F)
 set_target_fps(60)
-#toggle_fullscreen()
-#set_exit_key(0)
 
 # Configuration système
 fichier = open("systeme/sys.json")

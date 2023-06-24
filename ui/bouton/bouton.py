@@ -51,7 +51,7 @@ class Bouton:
         """
         h = self.taille.hauteur
         l = self.largeur
-        modifie = int(self.add)-self.sou
+        modifie = int(self.add-self.sou)
         self.coords = [x-int(l/2+modifie), y-int(h/2+modifie), x+int(l/2+modifie), y+int(h/2+modifie)]
         couleur = self.apparence.couleur1
         if self.apparence.zoom:
@@ -132,12 +132,12 @@ class Bouton:
         max = int(yf*0.003)
         if not self.wave:
             if self.sou < max:
-                self.sou += int(yf*0.001)
+                self.sou += yf*0.001
             else:
                 self.wave = True
         else:
             if self.sou > 0:
-                self.sou -= int(yf*0.001)
+                self.sou -= yf*0.001
             else:
                 self.activate = False
                 self.wave = False

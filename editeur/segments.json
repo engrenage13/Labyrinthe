@@ -1,0 +1,19 @@
+{
+    "segments": [
+        {"nom": "vide", "cotes": [false, false, false, false]},
+        {"nom": "nord", "cotes": [true, false, false, false]},
+        {"nom": "est", "cotes": [false, true, false, false]},
+        {"nom": "sud", "cotes": [false, false, true, false]},
+        {"nom": "ouest", "cotes": [false, false, false, true]},
+        {"nom": "nord-est", "cotes": [true, true, false, false]},
+        {"nom": "sud-est", "cotes": [false, true, true, false]},
+        {"nom": "sud-ouest", "cotes": [false, false, true, true]},
+        {"nom": "nord-ouest", "cotes": [true, false, false, true]},
+        {"nom": "horizontal", "cotes": [true, false, true, false]},
+        {"nom": "vertical", "cotes": [false, true, false, true]},
+        {"nom": "nord-est-sud", "cotes": [true, true, true, false]},
+        {"nom": "est-sud-ouest", "cotes": [false, true, true, true]},
+        {"nom": "sud-ouest-nord", "cotes": [true, false, true, true]},
+        {"nom": "ouest-nord-est", "cotes": [true, true, false, true]}
+    ]
+}
