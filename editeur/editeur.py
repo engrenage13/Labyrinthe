@@ -42,6 +42,8 @@ class Editeur:
         tv = measure_text_ex(police3i, version, taille, 0)
         draw_text_pro(police2i, f"{version} - {etatVersion.lower()}", (int(xf*0.005), int(yf-tv.y*1.1)), 
                     (0, 0), 0, taille, 0, GRAY)
+        if is_key_pressed(32):
+            self.alea()
 
     def alea(self) -> None:
         self.selection = choice(segments)

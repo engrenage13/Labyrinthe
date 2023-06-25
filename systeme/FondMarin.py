@@ -7,7 +7,7 @@ from ui.bouton.apparence import Apparence
 
 TITRE_F = 'LABYRINTHE'
 etatVersion = "alpha"
-version = "0.1"
+version = "0.1.1"
 
 init_window(1100, 750, TITRE_F)
 set_target_fps(60)
